@@ -2,21 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/UserServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/MpesaPaymentServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/web/MpesaPayment.jsp</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/web/header.jsp</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/OrdersServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/AdminViewUserAddressesServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/ResultServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/CheckUserServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/web/header.html</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/QueueTimeoutServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/Address.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/src/java/OrderDetailsServlet.java</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/web/success.jsp</file>
-            <file>file:/C:/Program%20Files/Apache%20Software%20Foundation/Tomcat%2010.1/conf/Catalina/localhost/webapps/ARClaundry/web/index.jsp</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
