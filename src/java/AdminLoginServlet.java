@@ -10,11 +10,11 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
-import jakarta.servlet.http.HttpSession;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class AdminLoginServlet extends HttpServlet {
     @Override
@@ -27,7 +27,7 @@ public class AdminLoginServlet extends HttpServlet {
 
         String dbURL = "jdbc:mysql://localhost:3306/laundry_users";
         String dbUser = "root";
-        String dbPassword = "";
+        String dbPassword = "@rn0ld_K2024";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
