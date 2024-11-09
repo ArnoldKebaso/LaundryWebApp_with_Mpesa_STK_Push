@@ -3,11 +3,11 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/DeleteOrder")
 public class DeleteOrder extends HttpServlet {
@@ -19,7 +19,7 @@ public class DeleteOrder extends HttpServlet {
 
         String dbURL = "jdbc:mysql://localhost:3306/ARC_laundry";
         String dbUser = "root";
-        String dbPassword = "";
+        String dbPassword = "@rn0ld_K2024";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
