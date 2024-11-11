@@ -1,0 +1,21 @@
+XyrlZ3wa/T6FbRGcY6XZXu+9jbx4XTfs45YY7ddUGxc=
+pom.xml 2024-11-11T06:21:00.225059Z
+README.md 2024-11-11T06:21:00.215523200Z
+src\main\java\com\example\ClassWithAdapter.java 2024-11-11T06:21:00.234595400Z
+src\main\java\com\example\ClassWithExposeAnnotation.java 2024-11-11T06:21:00.235592200Z
+src\main\java\com\example\ClassWithHasArgsConstructor.java 2024-11-11T06:21:00.237595500Z
+src\main\java\com\example\ClassWithJsonAdapterAnnotation.java 2024-11-11T06:21:00.240128200Z
+src\main\java\com\example\ClassWithNamedFields.java 2024-11-11T06:21:00.246140600Z
+src\main\java\com\example\ClassWithNoArgsConstructor.java 2024-11-11T06:21:00.248656600Z
+src\main\java\com\example\ClassWithSerializedName.java 2024-11-11T06:21:00.250696600Z
+src\main\java\com\example\ClassWithUnreferencedHasArgsConstructor.java 2024-11-11T06:21:00.252684500Z
+src\main\java\com\example\ClassWithUnreferencedNoArgsConstructor.java 2024-11-11T06:21:00.254685800Z
+src\main\java\com\example\ClassWithVersionAnnotations.java 2024-11-11T06:21:00.255687Z
+src\main\java\com\example\EnumClass.java 2024-11-11T06:21:00.257683700Z
+src\main\java\com\example\EnumClassWithSerializedName.java 2024-11-11T06:21:00.260205400Z
+src\main\java\com\example\GenericClasses.java 2024-11-11T06:21:00.265216900Z
+src\main\java\com\example\Main.java 2024-11-11T06:21:00.280564300Z
+src\main\java\com\example\NoSerializedNameMain.java 2024-11-11T06:21:00.282573900Z
+src\main\java\com\example\TestExecutor.java 2024-11-11T06:21:00.285575500Z
+src\main\java\com\example\UnusedClass.java 2024-11-11T06:21:00.287578700Z
+src\test\java\com\google\gson\it\ShrinkingIT.java 2024-11-11T06:21:00.293113700Z

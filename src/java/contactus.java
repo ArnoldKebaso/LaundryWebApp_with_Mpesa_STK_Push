@@ -25,7 +25,7 @@ public class contactus extends HttpServlet {
         // JDBC URL, username, and password
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/laundry_users";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "@rn0ld_K2024";
+    String dbPassword = "yourDB password";
 
     // JDBC driver class name
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";

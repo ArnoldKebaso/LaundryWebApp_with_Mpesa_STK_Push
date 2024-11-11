@@ -27,7 +27,7 @@ public class Login extends HttpServlet {
 
         String dbURL = "jdbc:mysql://localhost:3306/laundry_users";
         String user = "root";
-        String dbPassword = "@rn0ld_K2024";
+        String dbPassword = "yourDB password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

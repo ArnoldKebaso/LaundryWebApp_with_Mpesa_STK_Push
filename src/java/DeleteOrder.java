@@ -19,7 +19,7 @@ public class DeleteOrder extends HttpServlet {
 
         String dbURL = "jdbc:mysql://localhost:3306/ARC_laundry";
         String dbUser = "root";
-        String dbPassword = "@rn0ld_K2024";
+        String dbPassword = "yourDB password";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

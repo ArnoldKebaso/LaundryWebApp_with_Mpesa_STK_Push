@@ -1,0 +1,16 @@
+pxCKHAa6wQy3A+At6N66x3gARPb9PEZZDMZK86J92rg=
+pom.xml 2024-11-11T06:20:59.696883800Z
+README.md 2024-11-11T06:20:59.695883Z
+src\main\java\com\google\gson\extras\examples\rawcollections\RawCollectionsExample.java 2024-11-11T06:20:59.701402800Z
+src\main\java\com\google\gson\graph\GraphAdapterBuilder.java 2024-11-11T06:20:59.703440Z
+src\main\java\com\google\gson\interceptors\Intercept.java 2024-11-11T06:20:59.704407700Z
+src\main\java\com\google\gson\interceptors\InterceptorFactory.java 2024-11-11T06:20:59.705407500Z
+src\main\java\com\google\gson\interceptors\JsonPostDeserializer.java 2024-11-11T06:20:59.706410100Z
+src\main\java\com\google\gson\typeadapters\PostConstructAdapterFactory.java 2024-11-11T06:20:59.707447Z
+src\main\java\com\google\gson\typeadapters\RuntimeTypeAdapterFactory.java 2024-11-11T06:20:59.708989300Z
+src\main\java\com\google\gson\typeadapters\UtcDateTypeAdapter.java 2024-11-11T06:20:59.709999800Z
+src\test\java\com\google\gson\graph\GraphAdapterBuilderTest.java 2024-11-11T06:20:59.714044Z
+src\test\java\com\google\gson\interceptors\InterceptorTest.java 2024-11-11T06:20:59.715011500Z
+src\test\java\com\google\gson\typeadapters\PostConstructAdapterFactoryTest.java 2024-11-11T06:20:59.716007300Z
+src\test\java\com\google\gson\typeadapters\RuntimeTypeAdapterFactoryTest.java 2024-11-11T06:20:59.717015900Z
+src\test\java\com\google\gson\typeadapters\UtcDateTypeAdapterTest.java 2024-11-11T06:20:59.718013100Z
