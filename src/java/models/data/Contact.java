@@ -1,20 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package data;
+package models.data;
 
-/**
- *
- * @author Krafty Coder
- */
-public class Contact {
+import java.io.Serializable;
+
+public class Contact implements Serializable{
     private int contactID;
-    private int userID;
     private String firstName;
     private String lastName;
     private String phoneNumber;
 
+    // No argument constructor
+    public Contact(){
+        
+    }
+    //All arguments constructor
+    public Contact(int contactID,String firstName,String lastName,String phoneNumber){
+        this.contactID=contactID;
+        this.firstName=firstName;
+        this.lastName=lastName;
+        this.phoneNumber=phoneNumber;
+    }
     // Getters and setters
     public int getContactID() {
         return contactID;
@@ -22,14 +26,6 @@ public class Contact {
 
     public void setContactID(int contactID) {
         this.contactID = contactID;
-    }
-
-    public int getUserID() {
-        return userID;
-    }
-
-    public void setUserID(int userID) {
-        this.userID = userID;
     }
 
     public String getFirstName() {

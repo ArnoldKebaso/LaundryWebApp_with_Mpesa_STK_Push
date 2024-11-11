@@ -1,32 +1,43 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package models;
+package models.data;
 
-public class User {
-    private int id;
-    private String username;
-    private String email;
+import java.io.Serializable;
+
+public class User implements Serializable{
+    private int userID;
+    private String userName;
     private String password;
-    private String userType;
+    private String email;
     private String phone;
 
+    // No args constructor
+    public User(){
+        
+    }
+    
+    // All arguments constructor
+    public User(int userID,String userName,String password,String email,String phone){
+        this.userID=userID;
+        this.userName=userName;
+        this.password=password;
+        this.email=email;
+        this.phone=phone;
+    }
+    
     // Getters and Setters
     public int getId() {
-        return id;
+        return userID;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.userID = id;
     }
 
     public String getUsername() {
-        return username;
+        return userName;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.userName = username;
     }
 
     public String getEmail() {
@@ -43,14 +54,6 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getUserType() {
-        return userType;
-    }
-
-    public void setUserType(String userType) {
-        this.userType = userType;
     }
 
     public String getPhone() {

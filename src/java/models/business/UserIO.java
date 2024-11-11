@@ -1,9 +1,9 @@
-package data;
+package models.business;
 
 import java.io.*;
 import java.util.*;
 
-import business.User;
+import models.business.User;
 
 public class UserIO
 {

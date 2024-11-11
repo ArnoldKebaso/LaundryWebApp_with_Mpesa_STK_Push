@@ -1,19 +1,24 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package data;
+package models.data;
 
-/**
- *
- * @author Krafty Coder
- */
-public class Order {
+import java.io.Serializable;
+
+public class Order implements Serializable{
     private int orderID;
-    private int userID;
     private String pickUp;
     private String time;
 
+    //No arg constructor
+    public Order(){
+        
+    }
+    
+    // All arg constructor
+     public Order(int orderID,String pickUp,String time){
+        this.orderID=orderID;
+        this.pickUp=pickUp;
+        this.time=time;
+    }
+    
     // Getters and setters
     public int getOrderID() {
         return orderID;
@@ -22,15 +27,7 @@ public class Order {
     public void setOrderID(int orderID) {
         this.orderID = orderID;
     }
-
-    public int getUserID() {
-        return userID;
-    }
-
-    public void setUserID(int userID) {
-        this.userID = userID;
-    }
-
+    
     public String getPickUp() {
         return pickUp;
     }

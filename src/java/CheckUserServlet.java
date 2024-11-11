@@ -4,8 +4,8 @@ import java.io.*;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 
-import business.User;
-import data.UserIO;
+import models.business.User;
+import models.business.UserIO;
 import util.CookieUtil;
 
 public class CheckUserServlet extends HttpServlet

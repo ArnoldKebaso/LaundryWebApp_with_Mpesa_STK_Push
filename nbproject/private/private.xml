@@ -3,9 +3,24 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/data/Contact.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/util/List.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/business/UserIO.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/AddUserServlet.java</file>
             <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/web/WEB-INF/web.xml</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/Address.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/util/CookieUtil.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/data/User.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/data/Order.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/data/Address.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/ProfileServlet.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/DeleteCookiesServlet.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/data/Admin.java</file>
             <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/web/META-INF/context.xml</file>
             <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/AddUser.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/util/ArrayList.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/models/business/User.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/AdminViewContactDetailsServlet.java</file>
         </group>
     </open-files>
 </project-private>

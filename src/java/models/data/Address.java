@@ -1,21 +1,30 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package data;
+package models.data;
 
-/**
- *
- * @author Krafty Coder
- */
-public class Address {
+import java.io.Serializable;
+
+public class Address implements Serializable{
     private int addressID;
-    private int userID;
     private String streetAddress;
     private String apartmentNumber;
     private String city;
     private String zipCode;
     private String additionalNotes;
+
+    // No arguments constructor
+    public Address(){
+        
+    }
+    
+    //All args constructor
+    public Address(int addressID,String streetAddress,String apartmentNumber,String city,String zipCode,String additionalNotes){
+        this.addressID=addressID;
+        this.streetAddress=streetAddress;
+        this.apartmentNumber=apartmentNumber;
+        this.city=city;
+        this.zipCode=zipCode;
+        this.additionalNotes=additionalNotes;
+    }
+    
 
     // getters and setters
     public int getAddressID() {
@@ -24,14 +33,6 @@ public class Address {
 
     public void setAddressID(int addressID) {
         this.addressID = addressID;
-    }
-
-    public int getUserID() {
-        return userID;
-    }
-
-    public void setUserID(int userID) {
-        this.userID = userID;
     }
 
     public String getStreetAddress() {
