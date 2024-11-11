@@ -3,8 +3,8 @@ package download;
 import java.io.*;
 import java.net.*;
 
-import jakarta.servlet.*;
-import jakarta.servlet.http.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
 
 /**
  * @author Joel Murach

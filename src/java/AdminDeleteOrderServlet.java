@@ -4,10 +4,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 public class AdminDeleteOrderServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
@@ -23,7 +23,7 @@ public class AdminDeleteOrderServlet extends HttpServlet {
         // JDBC Database Connection Information
         String url = "jdbc:mysql://localhost:3306/laundry_users";
         String user = "root";
-        String dbPassword = "";
+        String dbPassword = "@rn0ld_K2024";
 
         try {
             Class.forName("com.mysql.jdbc.Driver");
