@@ -12,6 +12,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 //import jakarta.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 //import org.apache.derby.client.am.ResultSet;
 
 
-
+@WebServlet("/contactus")
 public class contactus extends HttpServlet {
 //    protected void doPost(HttpServletResponse response, HttpServletRequest request) throws ServletException, IOException{
         // JDBC URL, username, and password
