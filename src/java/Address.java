@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -11,13 +7,14 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 //import jakarta.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 //import org.apache.derby.client.am.ResultSet;
 
-//@WebServlet("/Registration")
+@WebServlet("/Address")
 public class Address extends HttpServlet {
 //    private static final long serialVersionUID = 1L;
 

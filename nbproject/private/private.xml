@@ -3,14 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/customerInfoServlet.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/contactus.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/Registration.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/OrderDetailsServlet.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/web/contact_details.jsp</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/ResultServlet.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/UserServlet.java</file>
-            <file>file:/C:/Users/Admin/Documents/NetBeansProjects/LeesoftLaundryWebApp/src/java/OrdersServlet.java</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/web/WEB-INF/web.xml</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/web/META-INF/context.xml</file>
+            <file>file:/home/collins/Projects/Java/LaundryWebApp_with_Mpesa_STK_Push/src/java/AddUser.java</file>
         </group>
     </open-files>
 </project-private>

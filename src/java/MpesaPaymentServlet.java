@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.google.gson.Gson;
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -14,6 +15,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 
+@WebServlet("/MpesaPaymentServlet")
 public class MpesaPaymentServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private static final String CONSUMER_KEY = "Your consumer key";
