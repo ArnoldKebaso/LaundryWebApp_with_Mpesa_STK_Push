@@ -9,6 +9,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import javax.servlet.annotation.WebServlet;
 //import jakarta.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 //import jakarta.servlet.http.HttpServletRequest;
@@ -18,6 +19,7 @@ import javax.servlet.http.HttpServlet;
  *
  * @author Krafty Coder
  */
+@WebServlet("/OrderDetailsServlet")
 public class OrderDetailsServlet extends HttpServlet {
 @SuppressWarnings("empty-statement")
 @Override

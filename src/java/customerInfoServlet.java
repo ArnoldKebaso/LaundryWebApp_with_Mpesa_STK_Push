@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Servlet.java to edit this template
- */
-
 
 
 import java.io.IOException;
@@ -12,6 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 //import jakarta.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 //import org.apache.derby.client.am.ResultSet;
 
 
-
+@WebServlet("/customerInfoServlet")
 public class customerInfoServlet extends HttpServlet {
 //    protected void doPost(HttpServletResponse response, HttpServletRequest request) throws ServletException, IOException{
         // JDBC URL, username, and password
